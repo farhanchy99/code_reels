@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body {
+    background-color: #F0B86C;
+    max-width: 900px;
+    margin: 1rem auto;
+  }
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.gallery {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    /* width: 50%;
+    margin: auto; */
+  }
+
+
+.gallery > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.gallery > div:hover {
+    flex: 5;
+}
